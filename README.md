@@ -34,8 +34,13 @@ ROI.y2: Y-coordinate of bottom-right corner of traffic sign bounding box
 The training data annotations will additionally contain
 ClassId: Assigned class label
 
+![image11](https://user-images.githubusercontent.com/85247728/198699394-5273082e-b604-4e12-9ab7-d2d5f38917e9.png)
+
 2.2 Methods 
 Before preprocessing the training dataset was equalized making examples in the classes equal as it is shown on the figure below. Histogram of 43 classes for training dataset with their number of examples for Traffic Signs Classification before and after equalization by adding transformated images (brightness and rotation) from original dataset. After equalization, the training dataset has increased up to 86989 examples.
+
+![image4](https://user-images.githubusercontent.com/85247728/198699606-04ce8c87-40a2-46f3-bf70-669e29eac63f.png)
+
  
 
 Convolution only takes one input with a fixed channel instead of all channels so it only learns a small part of the input channel, reducing performance. So we need to shuffle data then Convolution can learn more about other channels.
@@ -85,6 +90,8 @@ Mean image and standard deviation were calculated from the training dataset and 
 		The main idea of our project used CNN(Convolutional Neural Network) to classify traffic signs. Keras is a Python package that is a wrapper for deep learning libraries such as TensorFlow and Adam, … for model building, training, optimization.
 Model: 
 
+<img width="319" alt="image13" src="https://user-images.githubusercontent.com/85247728/198699691-fa9e97c8-e1ce-4ff6-b589-2e16c391b930.png">
+
 We use Keras to build an CNN model have layers: Conv2D, Maxpool2D, BatchNormalization, Flatten,  Dense
 
 Convolutional layer: 
@@ -108,6 +115,8 @@ Batch Normalization and Dropout:
 Batch normalization(BN) has been known to improve model performance, mitigate internal covariate shift, and apply a small regularization effect. Such functionalities of the BN and empirical studies proving the effectiveness of BN helped to solidify people's preference of using BN over dropout.
 Dropout is meant to block information from certain neurons completely to make sure the neurons do not co-adapt.
 
+![image5](https://user-images.githubusercontent.com/85247728/198699800-cd31ef50-054a-4cf6-ae7f-4a0d458635c5.png)
+
 
 About Keras: https://www.tensorflow.org/tutorials/images/cnn
 
@@ -115,6 +124,7 @@ About Keras: https://www.tensorflow.org/tutorials/images/cnn
 Python has a lot of GUI frameworks, but Tkinter is the only framework that’s built into the Python standard library. Tkinter has several strengths. Visual elements are rendered using native operating system elements, so applications built with Tkinter look like they belong on the platform where they’re run. Tkinter is lightweight and relatively painless to use compared to other frameworks. This makes it a compelling choice for building GUI applications in Python, especially for applications where a modern sheen is unnecessary, and the top priority is to quickly build something that’s functional and cross-platform.
 Make a simple GUI to classify one image each time with Tkinter package in python:
 
+![image11](https://user-images.githubusercontent.com/85247728/198699924-49f0e2fc-9c84-4ca9-ac37-2734b1badc58.png)
 
 
 Tkinter: https://realpython.com/python-gui-tkinter/
@@ -123,6 +133,9 @@ Tkinter: https://realpython.com/python-gui-tkinter/
 
 After training data:
 Fitting data of validation and training set:
+
+![image7](https://user-images.githubusercontent.com/85247728/198700034-0ce6cf17-079a-41c0-a945-b2072cec5b74.png)
+
 
 Each epoch with accuracy, val_accuracy, loss, val_loss when running program:
 val_loss is the value of cost function for your cross-validation data
