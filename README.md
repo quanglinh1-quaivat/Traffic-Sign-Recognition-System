@@ -2,7 +2,9 @@
 2. Method and data 
 
 2.1 DATA
+
 Overview:
+
 Single-image, multi-class classification problem
 More than 40 classes
 More than 50,000 images in total
@@ -10,11 +12,14 @@ Large, lifelike database
 Reliable ground-truth data due to semi-automatic annotation
 Physical traffic sign instances are unique within the dataset
 The training set archive is structures as follows:
+
 One directory per class
 Each directory contains one CSV file with annotations ("GT-<ClassID>.csv") and the training images
 Training images are grouped by tracks
 Each track contains 30 images of one single physical traffic sign
+
 Image format
+
 The images contain one traffic sign each
 Images contain a border of 10 % around the actual traffic sign (at least 5 pixels) to allow for edge-based approaches
 Images are stored in PPM format (Portable Pixmap, P6)
@@ -22,7 +27,9 @@ Image sizes vary between 15x15 to 250x250 pixels
 Images are not necessarily squared
 The actual traffic sign is not necessarily centered within the image.This is true for images that were close to the image border in the full camera image
 The bounding box of the traffic sign is part of the annotations (see below)
+
 Annotation format
+
 Annotations are provided in CSV files. Fields are separated by ";"   (semicolon). Annotations contain the following information:
 Filename: Filename of corresponding image
 Width: Width of the image
