@@ -124,7 +124,7 @@ About Keras: https://www.tensorflow.org/tutorials/images/cnn
 Python has a lot of GUI frameworks, but Tkinter is the only framework that’s built into the Python standard library. Tkinter has several strengths. Visual elements are rendered using native operating system elements, so applications built with Tkinter look like they belong on the platform where they’re run. Tkinter is lightweight and relatively painless to use compared to other frameworks. This makes it a compelling choice for building GUI applications in Python, especially for applications where a modern sheen is unnecessary, and the top priority is to quickly build something that’s functional and cross-platform.
 Make a simple GUI to classify one image each time with Tkinter package in python:
 
-![image11](https://user-images.githubusercontent.com/85247728/198699924-49f0e2fc-9c84-4ca9-ac37-2734b1badc58.png)
+![image10](https://user-images.githubusercontent.com/85247728/198700318-8506d7c9-033c-4b7c-b999-807e5da6b773.png)
 
 
 Tkinter: https://realpython.com/python-gui-tkinter/
@@ -143,9 +143,12 @@ loss is the value of cost function for your training data
 val_accuracy is the accuracy of a batch of testing data
 accuracy is the accuracy of a batch of training data 
 
+<img width="434" alt="image6" src="https://user-images.githubusercontent.com/85247728/198700618-9286f4e1-a7ab-4c52-9579-05f66a7ee24e.png">
 
 
 Figure represent accuracy, val_accuracy, loss, val_loss:
+
+![image7](https://user-images.githubusercontent.com/85247728/198700623-f5cd28c8-2e51-496e-ae09-286ee57d0e6c.png)
 
 
 Result: 
