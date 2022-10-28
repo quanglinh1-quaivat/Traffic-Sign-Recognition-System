@@ -107,6 +107,7 @@ Dropout is meant to block information from certain neurons completely to make su
 
 
 About Keras: https://www.tensorflow.org/tutorials/images/cnn
+
 3.2 Front-End: 
 Python has a lot of GUI frameworks, but Tkinter is the only framework that’s built into the Python standard library. Tkinter has several strengths. Visual elements are rendered using native operating system elements, so applications built with Tkinter look like they belong on the platform where they’re run. Tkinter is lightweight and relatively painless to use compared to other frameworks. This makes it a compelling choice for building GUI applications in Python, especially for applications where a modern sheen is unnecessary, and the top priority is to quickly build something that’s functional and cross-platform.
 Make a simple GUI to classify one image each time with Tkinter package in python:
@@ -114,6 +115,7 @@ Make a simple GUI to classify one image each time with Tkinter package in python
 
 
 Tkinter: https://realpython.com/python-gui-tkinter/
+
 4. Results and Discussion 
 
 After training data:
