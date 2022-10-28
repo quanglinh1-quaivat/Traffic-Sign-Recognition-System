@@ -1,5 +1,6 @@
 # Traffic-Sign-Recognition-System
 2. Method and data 
+
 2.1 DATA
 Overview:
 Single-image, multi-class classification problem
@@ -77,7 +78,9 @@ We separated the data to training, validation, testing set like the picture belo
 
 Mean image and standard deviation were calculated from the training dataset and applied to validation and testing dataset for appropriate datasets. When using image for classification, it has to be preprocessed firstly in the same way and in the same order according to the chosen dataset among nine.
 (Data: https://www.kaggle.com/datasets/valentynsichkar/traffic-signs-preprocessed)
+
 3. System Design & Implementation 
+
 3.1 Backend:
 		The main idea of our project used CNN(Convolutional Neural Network) to classify traffic signs. Keras is a Python package that is a wrapper for deep learning libraries such as TensorFlow and Adam, … for model building, training, optimization.
 Model: 
