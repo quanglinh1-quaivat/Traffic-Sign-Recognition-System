@@ -148,14 +148,20 @@ accuracy is the accuracy of a batch of training data
 
 Figure represent accuracy, val_accuracy, loss, val_loss:
 
-![image7](https://user-images.githubusercontent.com/85247728/198700623-f5cd28c8-2e51-496e-ae09-286ee57d0e6c.png)
+![image8](https://user-images.githubusercontent.com/85247728/198701283-fd553451-44bc-4f7f-b84a-4745c1f76526.png)
 
 
 Result: 
 Test on testing data: we need to confirm that model runs correctly with testing data when validation data was fit with high accuracy 
 
+<img width="893" alt="image12" src="https://user-images.githubusercontent.com/85247728/198701374-ff3da10d-f3b7-4eb7-8479-feab7b70396b.png">
+
 
 Test with GUI, real-time test with camera: We make a simple GUI to test model with other image that collect on the internet to evaluate the accuracy of the model with external data.
+
+![image3](https://user-images.githubusercontent.com/85247728/198701369-76f29800-0ce2-4d9d-93a0-2b27394828fd.png)
+
+![image9](https://user-images.githubusercontent.com/85247728/198701518-59868f4d-89fb-4a5d-bea0-8f40d8603c59.png)
 
 
 Perspective:
